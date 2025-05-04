@@ -319,6 +319,12 @@ else:
             final_accuracy = (final_score / total_possible * 100) if total_possible > 0 else 0
 
             st.markdown(f"Has completado las {total_possible} preguntas.")
+            
+            fecha_hora_actual = datetime.datetime.now()
+            formato = "%d/%B/%Y - %I:%M%p"
+            fecha_hora_formateada = fecha_hora_actual.strftime(formato)
+            st.info(f"La fecha y hora actual es: **{fecha_hora_formateada}**")
+            
             st.markdown(f"Tu resultado final es:")
 
             col_score, col_accuracy, c3 = st.columns(3)
