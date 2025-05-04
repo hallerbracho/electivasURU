@@ -3,6 +3,7 @@ import google.generativeai as genai
 import json
 import random
 import time
+import datetime
 
 # --- Configuración de la Página ---
 st.set_page_config(
