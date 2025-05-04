@@ -13,7 +13,7 @@ st.set_page_config(
 
 # --- Definición de Asignaturas y Temas ---
 subjects = {
-    "Ciberseguridad": "DEsafíos prácticos de ciberseguridad ambientados en casos reales", 
+    "Ciberseguridad": "Desafíos prácticos de ciberseguridad ambientados en casos reales", 
     "Planificación y administración de redes de comunicaciones": "Desafíos prácticos de planificación y administración redes TCP/IP ambientados en casos reales",
     "Criptografía y seguridad de redes": "Desafíos prácticos de criptografía ambientados en problemas reales de ingeniería de telecomunicaciones" #aritmética modular
 }
