@@ -324,7 +324,7 @@ else:
             fecha_hora_actual = datetime.datetime.now()
             formato = "%d/%B/%Y - %I:%M%p"
             fecha_hora_formateada = fecha_hora_actual.strftime(formato)
-            st.info(f"Fecha y hora: **{fecha_hora_formateada}** UTC 00")
+            st.info(f"Fecha y hora: **{fecha_hora_formateada}** UTC 00 ")
             
             st.markdown(f"Tu resultado final es:")
 
