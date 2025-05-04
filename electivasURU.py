@@ -3,7 +3,7 @@ import google.generativeai as genai
 import json
 import random
 import time
-import datetime
+#import datetime
 
 # --- Configuración de la Página ---
 st.set_page_config(
@@ -321,10 +321,10 @@ else:
 
             st.markdown(f"Has completado las {total_possible} preguntas.")
             
-            fecha_hora_actual = datetime.datetime.now()
-            formato = "%d/%B/%Y - %I:%M%p"
-            fecha_hora_formateada = fecha_hora_actual.strftime(formato)
-            st.info(f"Fecha y hora: **{fecha_hora_formateada}** UTC 00 ")
+            #fecha_hora_actual = datetime.datetime.now()
+            #formato = "%d/%B/%Y - %I:%M%p"
+            #fecha_hora_formateada = fecha_hora_actual.strftime(formato)
+            #st.info(f"Fecha y hora: **{fecha_hora_formateada}** UTC 00 ")
             
             st.markdown(f"Tu resultado final es:")
 
