@@ -185,7 +185,7 @@ else:
             st.image("https://uru.edu/wp-content/uploads/2023/02/uru-logo-maracaibo.png") #
         with coll2:
             st.subheader(f'{current_subject}')
-        st.markdown(f"**{st.session_state.max_questions} preguntas** para practicar y certificar tus conocimientos en {current_subject}.")
+        st.markdown(f"**{st.session_state.max_questions} preguntas** para cuantificar tu nivel de conocimientos en {current_subject}.")
 
     main_interaction_area = st.container(border=True)
     score_area = st.container()
