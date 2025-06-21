@@ -83,10 +83,10 @@ else:
     # --- Modelo de IA y Configuraciones ---
     # Usamos gemini-2.0-flash-lite para mejor rendimiento y capacidad de seguir instrucciones.
     model = genai.GenerativeModel(
-        model_name="gemini-2.5-flash",
+        model_name="gemini-2.5-flash-lite-preview-06-17",
         generation_config={
             "response_mime_type": "application/json",
-            "temperature": 0.2
+            "temperature": 0.5
         },
         safety_settings=[
             {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_NONE"},
