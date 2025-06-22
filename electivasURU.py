@@ -367,7 +367,7 @@ else:
                  st.metric("Preguntas Contestadas", f"{st.session_state.total_questions} / {st.session_state.max_questions}", f"{valor} pregunta(s) restantes", border=True, delta_color="off")
              with col2:
                  accuracy = (st.session_state.correct_count / st.session_state.total_questions * 100) if st.session_state.total_questions > 0 else 0
-                 st.metric("Aciertos", f"{st.session_state.correct_count}", f"{accuracy:.1f}%", border=True)
+                 st.metric("Aciertos", f"{st.session_state.correct_count} / {st.session_state.total_questions}", f"{accuracy:.1f}%", border=True)
              with col3:
                 nota = accuracy*20/100
                 st.metric("Calificación", f"{nota:.1f}", "puntos", border=True)
